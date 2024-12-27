@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 
+   ////////////////////////////////////////////
+   ////////////// My CSS File//////////////////
+   ////////////////////////////////////////////
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.content {
+    /* background-color: rgb(177, 218, 251); */
+    padding: 10px;
+    border: 1px solid rgb(177, 218, 251);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2%;
+}
+
+.round_keeper {
+    padding-bottom: .6em;
+    display: flex;
+}
+
+
+.buttons {
+    display: flex;
+    flex-grow: 1;
+}
+
+h1,
+h3 {
+    font-size: 1em;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+h2 {
+    font-size: 1.75em;
+    padding: 5px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+p {
+    font-size: .80em;
+    padding: 5px;
+}
+
+hr {
+    width: 96%;
+}
+
+#player_one, #player_two, #reset{
+    display: flex;
+    flex-grow: 1;
+    margin: 0px;
+    padding: .5em;
+    text-align: center;
+    color: white;
+}
+
+#player_one{
+    background-color: rgb(100, 210, 100);
+    border: 1px solid rgb(100, 210, 100);
+    border-radius: 2%;
+}
+
+#player_two{
+    background-color: rgb(109, 151, 249);
+    border: 1px solid rgb(109, 151, 249);
+    border-radius: 2%;
+}
+
+#reset{
+    background-color: rgb(246, 85, 85);
+    border: 1px solid rgb(246, 85, 85);
+    text-align: center;
+}
+
+#playto{
+    padding: 0em;
+    height: 1.5em;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 3em;
+}
